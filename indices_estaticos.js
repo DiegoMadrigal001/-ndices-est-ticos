@@ -13,6 +13,7 @@ function ordenarDosArrays(arreglo) {
     //atravez del metodo de burbuja voy a repetir hasta que el aerreglo principal este ordenado
     while (equivalentes(arr) == false) {
         for (let k = 0; k < arreglo.length; k++) {
+            //ni siquiera ejecuta este alert de abajo :(
             alert("akjkj")
             if (arreglo[k] > arreglo[k + 1]) {
                 //array 1
